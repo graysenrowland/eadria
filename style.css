@@ -1,5 +1,7 @@
 :root {
   --bg: #101312;
+  --panel: #181d1b;
+  --line: #2c3430;
   --text: #ece8dd;
   --muted: #b9b1a4;
   --accent: #c8a96a;
@@ -21,13 +23,55 @@ body {
   line-height: 1.65;
 }
 
+a {
+  color: inherit;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 18, 0.88);
+}
+
+.nav {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand,
+.nav-links a {
+  text-decoration: none;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--muted);
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--accent);
+}
+
 .page-shell {
   width: min(100% - 2rem, var(--max-width));
   margin: 0 auto;
-  padding: 12vh 0;
+  padding: 10vh 0;
 }
 
-.hero {
+.hero,
+.article {
   max-width: 720px;
 }
 
@@ -47,9 +91,96 @@ h1 {
   letter-spacing: -0.07em;
 }
 
+.page-title {
+  font-size: clamp(3rem, 10vw, 6rem);
+}
+
 .lede {
   max-width: 40rem;
   margin-top: 1.75rem;
   color: var(--muted);
   font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.button-card {
+  display: block;
+  min-height: 8rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(24, 29, 27, 0.76);
+  text-decoration: none;
+}
+
+.button-card span {
+  display: block;
+  color: var(--text);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.button-card small {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.button-card:hover,
+.button-card:focus {
+  border-color: var(--accent);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus {
+  color: var(--accent);
+}
+
+.placeholder {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border-left: 4px solid var(--accent);
+  background: rgba(200, 169, 106, 0.08);
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  .nav-links a {
+    flex: 1;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    text-align: center;
+  }
+
+  .page-shell {
+    padding: 7vh 0;
+  }
+
+  .button-row {
+    grid-template-columns: 1fr;
+  }
 }
