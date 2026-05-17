@@ -17,6 +17,8 @@
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
 - For Eadrian civilization scenes, prefer practical lived-in medieval design over high-fantasy spectacle.
 - Do not use flags, banners, or insignia in ways that imply territorial ownership unless that is canonically intended.
+- When generating emblems, insignia, banners, armor markings, or symbolic motifs, account for the associated pantheons, groups, peoples, regions, and political relationships already established in canon.
+- Avoid generic symbols when a canon-linked symbol exists; avoid introducing symbols that imply false allegiance, ownership, worship, or political control.
 
 ## Depicting the Keepers of Volelia
 
