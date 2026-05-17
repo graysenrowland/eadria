@@ -68,8 +68,11 @@
           yAxis: { visible: false },
           legend: { enabled: false },
           tooltip: {
-            style: { fontSize: '0.9rem' },
-            pointFormat: '<b>{point.name}</b><br>{point.description}'
+            useHTML: true,
+            borderRadius: 4,
+            padding: 10,
+            style: { fontSize: '0.9rem', lineHeight: '1.25' },
+            pointFormat: '<strong>{point.name}</strong><br><span style="line-height:1.25">{point.description}</span>'
           },
           series: [{
             data: points,
@@ -80,9 +83,11 @@
               allowOverlap: false,
               connectorWidth: 1,
               color: '#2c2118',
+              format: '{point.name}',
               style: {
                 textOutline: 'none',
-                fontFamily: 'Georgia, serif'
+                fontFamily: 'Georgia, serif',
+                lineHeight: '1.1'
               }
             }
           }]
