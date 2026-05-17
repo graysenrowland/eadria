@@ -171,6 +171,37 @@ h3 {
   line-height: 1.45;
 }
 
+blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(111, 92, 67, 0.32);
+  border-left: 5px solid var(--accent);
+  border-radius: 0.9rem;
+  background: rgba(255, 250, 233, 0.42);
+  box-shadow: 0 12px 26px rgba(75, 49, 20, 0.08);
+  color: var(--ink);
+  font-family: var(--font-heading);
+}
+
+blockquote p,
+.article blockquote p {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 3.2vw, 1.65rem);
+  line-height: 1.35;
+}
+
+blockquote footer {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
 .button-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
