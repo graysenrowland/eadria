@@ -16,5 +16,17 @@
 - Composition should be cinematic but readable, often wide-angle when useful, with strong practical pathways, geography, and spatial logic.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
 - For Eadrian civilization scenes, prefer practical lived-in medieval design over high-fantasy spectacle.
-- For the Keepers of Volelia, show noble humility, mercy, protection of life, sun/light symbolism, and ornate engraved steel armor with blue mineral and warm bronze/brass inlays; avoid wealth-signaling gold dependency.
 - Do not use flags, banners, or insignia in ways that imply territorial ownership unless that is canonically intended.
+
+## Depicting the Keepers of Volelia
+
+- Keepers should read as noble, humble protectors of life rather than conquerors, mercenaries, or wealthy lords.
+- Their visual tone should emphasize mercy, hospitality, courage, remembrance, and the preservation of life.
+- Sunlight, dawn, warm light, flowers, rescued civilians, and acts of gentleness are fitting motifs.
+- Their insignia always references the light of the sun, but should not be placed on local flags or banners unless the Keepers canonically hold that place.
+- Their armor is ornate engraved steel, often with blue mineral and warm bronze/brass inlays.
+- The armor's beauty represents devotion to portraying the beauty of life, not riches, status, or worldly success.
+- Engravings should feel meaningful: names of the fallen, remembered lives, vows, flowers, sunbursts, roads, tears, rivers, and scenes of mercy.
+- Each Keeper's armor may reflect their own hand and character: severe, martial, graceful, natural, masculine, feminine, radiant, or austere.
+- Avoid making them look ostentatiously rich. Their beauty should come from patient craft, humility, and remembrance.
+- Roulant and his Keepers may be depicted as defenders of the vulnerable, especially in scenes of evacuation, rescue, and defiance of armies for the sake of civilians.
