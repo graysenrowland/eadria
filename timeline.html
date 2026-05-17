@@ -6,6 +6,22 @@
   <title>Timeline · Eadria</title>
   <meta name="description" content="Timeline of Delmara and Eadria.">
   <link rel="stylesheet" href="style.css">
+  <style>
+    #delmara-timeline .timeline-label {
+      display: block;
+      max-width: 9.5rem;
+      white-space: normal;
+      line-height: 1.15;
+    }
+    #delmara-timeline .timeline-label.era {
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+    #delmara-timeline .timeline-label.event {
+      font-weight: 500;
+      font-size: 0.82rem;
+    }
+  </style>
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/timeline.js"></script>
 </head>
@@ -40,16 +56,16 @@
           points.push({
             name: item.name,
             description: item.summary,
-            marker: { radius: 10 },
-            dataLabels: { style: { fontSize: '1.05rem', fontWeight: '700' } }
+            labelType: 'era',
+            marker: { radius: 10 }
           });
           if (item.events) {
             item.events.forEach(function(event) {
               points.push({
                 name: event.name,
                 description: event.summary,
-                marker: { radius: 5 },
-                dataLabels: { style: { fontSize: '0.82rem', fontWeight: '500' } }
+                labelType: 'event',
+                marker: { radius: 5 }
               });
             });
           }
@@ -83,16 +99,17 @@
             color: '#7b4f2f',
             lineWidth: 2,
             dataLabels: {
+              useHTML: true,
               allowOverlap: false,
               crop: false,
               overflow: 'allow',
               connectorWidth: 1,
-              color: '#2c2118',
-              format: '{point.name}',
+              formatter: function() {
+                return '<span class="timeline-label ' + this.point.labelType + '">' + this.point.name + '</span>';
+              },
               style: {
                 textOutline: 'none',
-                fontFamily: 'Georgia, serif',
-                lineHeight: '1.1'
+                fontFamily: 'Georgia, serif'
               }
             }
           }]
