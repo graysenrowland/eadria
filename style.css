@@ -258,13 +258,25 @@ h2 {
     padding-top: 2rem;
   }
 
+  .image-plate {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
   .hero-image {
     aspect-ratio: 16 / 9;
     margin-bottom: 1.25rem;
+    border-left: 0;
+    border-right: 0;
   }
 
   .image-plate .hero-image {
     margin-bottom: 0.2rem;
+  }
+
+  .image-plate figcaption {
+    padding-right: 1rem;
   }
 
   .button-row {
