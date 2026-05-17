@@ -82,7 +82,7 @@ a {
 }
 
 .home-shell {
-  padding-top: 5vh;
+  padding-top: 3rem;
 }
 
 .hero,
@@ -99,7 +99,7 @@ a {
   width: 100%;
   aspect-ratio: 16 / 7;
   object-fit: cover;
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
   border: 1px solid rgba(111, 92, 67, 0.38);
   box-shadow: 0 16px 34px rgba(75, 49, 20, 0.12);
 }
@@ -140,7 +140,7 @@ h2 {
 
 .lede {
   max-width: 43rem;
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   color: var(--muted);
   font-size: clamp(1.55rem, 4.8vw, 2.3rem);
   line-height: 1.35;
@@ -155,7 +155,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
-  margin-top: 2.5rem;
+  margin-top: 2.25rem;
 }
 
 .button-card {
@@ -241,7 +241,7 @@ h2 {
 
   .hero-image {
     aspect-ratio: 16 / 9;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 
   .button-row {
