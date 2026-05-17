@@ -229,18 +229,7 @@ h2 {
 }
 
 .back-link {
-  display: inline-block;
-  margin-bottom: 2rem;
-  color: var(--muted);
-  font-family: var(--font-ui);
-  letter-spacing: 0.08em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.back-link:hover,
-.back-link:focus {
-  color: var(--accent);
+  display: none;
 }
 
 .placeholder {
