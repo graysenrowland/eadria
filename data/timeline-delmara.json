@@ -1,0 +1,44 @@
+{
+  "title": "Timeline of Delmara",
+  "description": "A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Post-Deluge age.",
+  "eras": [
+    {
+      "id": "aurumveldian-era",
+      "name": "Aurumveldian Era",
+      "summary": "The age of Aurumveldor, before the Great Deluge remade the Land Above.",
+      "events": [
+        {
+          "id": "keepers-established",
+          "name": "Keepers Established",
+          "summary": "The Keepers of Volelia are founded in the elder age of Delmara.",
+          "type": "minor"
+        }
+      ]
+    },
+    {
+      "id": "great-deluge",
+      "name": "The Great Deluge",
+      "summary": "The dividing catastrophe between Aurumveldor and the Delmara known in the present age. The Ondris River becomes the Ondris Sea, and Dughfaldur is drowned beneath its waters.",
+      "type": "major-event"
+    },
+    {
+      "id": "post-deluge",
+      "name": "Post-Deluge",
+      "summary": "The current age of Delmara, the Land Above after the flood and remaking of the old world.",
+      "events": [
+        {
+          "id": "axont-established",
+          "name": "Axont Established",
+          "summary": "Axont rises in the Post-Deluge age.",
+          "type": "minor"
+        },
+        {
+          "id": "klad-settled",
+          "name": "Klad Settled",
+          "summary": "The Klad establish their settlement north of Lake Imryll.",
+          "type": "minor"
+        }
+      ]
+    }
+  ]
+}
