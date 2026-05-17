@@ -39,7 +39,6 @@
         data.eras.forEach(function(item) {
           points.push({
             name: item.name,
-            label: item.name,
             description: item.summary,
             marker: { radius: item.type === 'major-event' ? 8 : 12 },
             dataLabels: { style: { fontSize: item.type === 'major-event' ? '0.95rem' : '1.15rem', fontWeight: '700' } }
@@ -48,7 +47,6 @@
             item.events.forEach(function(event) {
               points.push({
                 name: event.name,
-                label: event.name,
                 description: event.summary,
                 marker: { radius: 5 },
                 dataLabels: { style: { fontSize: '0.82rem', fontWeight: '500' } }
