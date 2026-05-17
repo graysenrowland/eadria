@@ -1,6 +1,6 @@
 {
   "title": "Timeline of Delmara",
-  "description": "A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Post-Deluge age.",
+  "description": "A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Current Era.",
   "eras": [
     {
       "id": "aurumveldian-era",
@@ -12,24 +12,24 @@
           "name": "Keepers Established",
           "summary": "The Keepers of Volelia are founded in the elder age of Delmara.",
           "type": "minor"
+        },
+        {
+          "id": "great-deluge",
+          "name": "The Great Deluge",
+          "summary": "The final great event of the Aurumveldian Era. The Ondris River becomes the Ondris Sea, and Dughfaldur is drowned beneath its waters.",
+          "type": "minor"
         }
       ]
     },
     {
-      "id": "great-deluge",
-      "name": "The Great Deluge",
-      "summary": "The dividing catastrophe between Aurumveldor and the Delmara known in the present age. The Ondris River becomes the Ondris Sea, and Dughfaldur is drowned beneath its waters.",
-      "type": "major-event"
-    },
-    {
-      "id": "post-deluge",
-      "name": "Post-Deluge",
-      "summary": "The current age of Delmara, the Land Above after the flood and remaking of the old world.",
+      "id": "current-era",
+      "name": "Current Era",
+      "summary": "The present age of Delmara, the Land Above after the flood and remaking of the old world.",
       "events": [
         {
           "id": "axont-established",
           "name": "Axont Established",
-          "summary": "Axont rises in the Post-Deluge age.",
+          "summary": "Axont rises in the Current Era.",
           "type": "minor"
         },
         {
