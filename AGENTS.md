@@ -12,6 +12,7 @@
 
 - Favor an oil-painting / traditional painted look rather than glossy digital fantasy art.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
+- Default to landscape-oriented compositions unless another orientation is specifically requested.
 - Avoid obvious AI-pattern density, excessive ornament, impossible architecture, and cluttered detailing.
 - Composition should be cinematic but readable, often wide-angle when useful, with strong practical pathways, geography, and spatial logic.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
