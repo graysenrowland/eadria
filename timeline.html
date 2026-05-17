@@ -6,6 +6,8 @@
   <title>Timeline · Eadria</title>
   <meta name="description" content="Timeline of Delmara and Eadria.">
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/timeline.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -25,25 +27,69 @@
       <a class="back-link" href="index.html">← Home</a>
       <h1 class="page-title">Timeline</h1>
       <p class="lede">A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Post-Deluge age.</p>
-
-      <section class="entry-list timeline-list" aria-label="Timeline of Delmara">
-        <div class="entry timeline-era">
-          <h2>Aurumveldian Era</h2>
-          <p>The age of Aurumveldor, before the Great Deluge remade the Land Above.</p>
-          <div class="timeline-event"><h3>Keepers Established</h3><p>The Keepers of Volelia are founded in the elder age of Delmara.</p></div>
-        </div>
-        <div class="entry timeline-event major-event">
-          <h2>The Great Deluge</h2>
-          <p>The dividing catastrophe between Aurumveldor and the Delmara known in the present age. The Ondris River becomes the Ondris Sea, and Dughfaldur is drowned beneath its waters.</p>
-        </div>
-        <div class="entry timeline-era">
-          <h2>Post-Deluge</h2>
-          <p>The current age of Delmara, the Land Above after the flood and remaking of the old world.</p>
-          <div class="timeline-event"><h3>Axont Established</h3><p>Axont rises in the Post-Deluge age.</p></div>
-          <div class="timeline-event"><h3>Klad Settled</h3><p>The Klad establish their settlement north of Lake Imryll.</p></div>
-        </div>
-      </section>
+      <div id="delmara-timeline" class="image-plate" aria-label="Timeline of Delmara" style="height: 720px;"></div>
     </article>
   </main>
+
+  <script>
+    fetch('data/timeline-delmara.json')
+      .then(function(response) { return response.json(); })
+      .then(function(data) {
+        const points = [];
+        data.eras.forEach(function(item) {
+          points.push({
+            name: item.name,
+            label: item.name,
+            description: item.summary,
+            marker: { radius: item.type === 'major-event' ? 8 : 12 },
+            dataLabels: { style: { fontSize: item.type === 'major-event' ? '0.95rem' : '1.15rem', fontWeight: '700' } }
+          });
+          if (item.events) {
+            item.events.forEach(function(event) {
+              points.push({
+                name: event.name,
+                label: event.name,
+                description: event.summary,
+                marker: { radius: 5 },
+                dataLabels: { style: { fontSize: '0.82rem', fontWeight: '500' } }
+              });
+            });
+          }
+        });
+
+        Highcharts.chart('delmara-timeline', {
+          chart: {
+            type: 'timeline',
+            inverted: true,
+            backgroundColor: 'transparent',
+            spacing: [20, 20, 20, 20]
+          },
+          credits: { enabled: false },
+          title: { text: data.title, style: { display: 'none' } },
+          xAxis: { visible: false },
+          yAxis: { visible: false },
+          legend: { enabled: false },
+          tooltip: {
+            style: { fontSize: '0.9rem' },
+            pointFormat: '<b>{point.name}</b><br>{point.description}'
+          },
+          series: [{
+            data: points,
+            colorByPoint: false,
+            color: '#7b4f2f',
+            lineWidth: 2,
+            dataLabels: {
+              allowOverlap: false,
+              connectorWidth: 1,
+              color: '#2c2118',
+              style: {
+                textOutline: 'none',
+                fontFamily: 'Georgia, serif'
+              }
+            }
+          }]
+        });
+      });
+  </script>
 </body>
 </html>
