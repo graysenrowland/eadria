@@ -26,8 +26,8 @@
     <article class="article">
       <a class="back-link" href="index.html">← Home</a>
       <h1 class="page-title">Timeline</h1>
-      <p class="lede">A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Post-Deluge age.</p>
-      <div id="delmara-timeline" class="image-plate" aria-label="Timeline of Delmara" style="height: 720px;"></div>
+      <p class="lede">A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Current Era.</p>
+      <div id="delmara-timeline" class="image-plate" aria-label="Timeline of Delmara" style="height: 820px;"></div>
     </article>
   </main>
 
@@ -40,8 +40,8 @@
           points.push({
             name: item.name,
             description: item.summary,
-            marker: { radius: item.type === 'major-event' ? 8 : 12 },
-            dataLabels: { style: { fontSize: item.type === 'major-event' ? '0.95rem' : '1.15rem', fontWeight: '700' } }
+            marker: { radius: 10 },
+            dataLabels: { style: { fontSize: '1.05rem', fontWeight: '700' } }
           });
           if (item.events) {
             item.events.forEach(function(event) {
@@ -60,7 +60,10 @@
             type: 'timeline',
             inverted: true,
             backgroundColor: 'transparent',
-            spacing: [20, 20, 20, 20]
+            spacingTop: 80,
+            spacingRight: 20,
+            spacingBottom: 40,
+            spacingLeft: 20
           },
           credits: { enabled: false },
           title: { text: data.title, style: { display: 'none' } },
@@ -81,6 +84,8 @@
             lineWidth: 2,
             dataLabels: {
               allowOverlap: false,
+              crop: false,
+              overflow: 'allow',
               connectorWidth: 1,
               color: '#2c2118',
               format: '{point.name}',
