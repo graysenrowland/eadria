@@ -120,12 +120,13 @@ function relativeHref(fromFile, targetUrl) {
   return href;
 }
 
-function linkText(text, terms, currentPage, linkedEntities) {
+function linkText(text, terms, currentPage) {
   let result = text;
+  const linkedInThisTextNode = new Set();
 
   for (const term of terms) {
-    if (linkedEntities.has(term.entityName)) continue;
-    if (currentPage === term.url) continue;
+    if (linkedInThisTextNode.has(term.entityName)) continue;
+    if (currentPage.relativePath === term.url) continue;
 
     const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegex(term.term)})(?=$|[^A-Za-z0-9])`, 'i');
     const match = result.match(pattern);
@@ -133,7 +134,7 @@ function linkText(text, terms, currentPage, linkedEntities) {
 
     const href = htmlEscape(relativeHref(currentPage.absolutePath, term.url));
     result = result.replace(pattern, `${match[1]}<a href="${href}">${match[2]}</a>`);
-    linkedEntities.add(term.entityName);
+    linkedInThisTextNode.add(term.entityName);
   }
 
   return result;
@@ -145,7 +146,6 @@ function autolinkHtml(html, filePath, terms) {
 
   const currentRelative = path.relative(OUT, filePath).split(path.sep).join('/');
   const currentPage = { absolutePath: filePath, relativePath: currentRelative };
-  const linkedEntities = new Set();
   const main = mainMatch[0];
 
   const parts = main.split(/(<[^>]+>)/g);
@@ -173,7 +173,7 @@ function autolinkHtml(html, filePath, terms) {
     } else if (skipStack.length > 0) {
       processed += part;
     } else {
-      processed += linkText(part, terms, currentPage, linkedEntities);
+      processed += linkText(part, terms, currentPage);
     }
   }
 
