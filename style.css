@@ -271,12 +271,11 @@ blockquote footer {
 .home-page .button-icon { color: var(--accent); }
 
 .button-icon {
-  display: inline-block;
+  display: block;
+  width: 1.85rem;
+  height: 1.85rem;
   margin-bottom: 0.45rem;
-  color: var(--accent);
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  line-height: 1;
+  object-fit: contain;
 }
 
 .button-card span {
