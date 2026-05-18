@@ -28,6 +28,14 @@ body {
   line-height: 1.55;
 }
 
+body.home-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(20, 14, 9, 0.52), rgba(244, 236, 216, 0.12) 44%, rgba(20, 14, 9, 0.48)),
+    linear-gradient(180deg, rgba(244, 236, 216, 0.08), rgba(20, 14, 9, 0.32)),
+    url('media/Eadria.jpeg') center / cover no-repeat fixed;
+}
+
 a { color: inherit; }
 
 .site-header {
@@ -88,12 +96,29 @@ a { color: inherit; }
   padding: 10vh 0;
 }
 
-.home-shell { padding-top: 3rem; }
+.home-shell {
+  min-height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  align-items: center;
+}
 
 .hero,
 .article { max-width: 740px; }
 
 .home-shell .hero { max-width: var(--max-width); }
+
+.home-page .hero {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid rgba(255, 250, 233, 0.42);
+  border-radius: 1.25rem;
+  background: rgba(244, 236, 216, 0.72);
+  box-shadow: 0 28px 70px rgba(20, 14, 9, 0.34);
+  backdrop-filter: blur(3px);
+}
+
+.home-page .lede { color: rgba(52, 39, 25, 0.86); }
 
 .image-plate { margin: 0 0 1.5rem; }
 
@@ -219,6 +244,24 @@ blockquote footer {
   text-decoration: none;
 }
 
+.home-page .button-card {
+  border-color: rgba(52, 39, 25, 0.28);
+  background: rgba(255, 250, 233, 0.48);
+  box-shadow: 0 14px 30px rgba(20, 14, 9, 0.12);
+}
+
+.home-page .button-card:hover,
+.home-page .button-card:focus { background: rgba(255, 250, 233, 0.72); }
+
+.button-icon {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: var(--accent);
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  line-height: 1;
+}
+
 .button-card span {
   display: block;
   color: var(--ink);
@@ -292,7 +335,16 @@ blockquote footer {
 
   .page-shell { padding: 7vh 0; }
 
-  .home-shell { padding-top: 2rem; }
+  .home-shell {
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .home-page .hero {
+    padding: 1.25rem;
+    border-radius: 0.9rem;
+  }
 
   .image-plate {
     width: 100vw;
