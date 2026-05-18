@@ -7,23 +7,43 @@
   <meta name="description" content="Timeline of Delmara and Eadria.">
   <link rel="stylesheet" href="style.css">
   <style>
-    #delmara-timeline .timeline-label {
-      display: block;
-      max-width: 9.5rem;
-      white-space: normal;
-      line-height: 1.15;
+    .timeline-list {
+      margin-top: 2rem;
+      border-left: 2px solid rgba(123, 79, 47, 0.45);
+      padding-left: 1.5rem;
     }
-    #delmara-timeline .timeline-label.era {
-      font-weight: 700;
-      font-size: 1.05rem;
+    .timeline-era {
+      position: relative;
+      margin: 0 0 2rem;
     }
-    #delmara-timeline .timeline-label.event {
-      font-weight: 500;
-      font-size: 0.82rem;
+    .timeline-era::before {
+      content: "";
+      position: absolute;
+      left: calc(-1.5rem - 7px);
+      top: 0.35rem;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #7b4f2f;
     }
+    .timeline-era h2 { margin-bottom: 0.35rem; }
+    .timeline-events { margin-top: 0.85rem; }
+    .timeline-event {
+      position: relative;
+      margin: 0.65rem 0 0 1rem;
+    }
+    .timeline-event::before {
+      content: "";
+      position: absolute;
+      left: -1.15rem;
+      top: 0.45rem;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: rgba(123, 79, 47, 0.7);
+    }
+    .timeline-event strong { display: block; }
   </style>
-  <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/modules/timeline.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -45,10 +65,9 @@
 
   <main class="page-shell">
     <article class="article">
-      <a class="back-link" href="index.html">← Home</a>
       <h1 class="page-title">Timeline</h1>
       <p class="lede">A beginning chronology of Delmara, from the remembered age of Aurumveldor to the present Current Era.</p>
-      <div id="delmara-timeline" class="image-plate" aria-label="Timeline of Delmara" style="height: 820px;"></div>
+      <div id="delmara-timeline" class="timeline-list" aria-label="Timeline of Delmara"></div>
     </article>
   </main>
 
@@ -56,70 +75,20 @@
     fetch('data/timeline-delmara.json')
       .then(function(response) { return response.json(); })
       .then(function(data) {
-        const points = [];
-        data.eras.forEach(function(item) {
-          points.push({
-            name: item.name,
-            description: item.summary,
-            labelType: 'era',
-            marker: { radius: 10 }
-          });
-          if (item.events) {
-            item.events.forEach(function(event) {
-              points.push({
-                name: event.name,
-                description: event.summary,
-                labelType: 'event',
-                marker: { radius: 5 }
-              });
-            });
-          }
-        });
-
-        Highcharts.chart('delmara-timeline', {
-          chart: {
-            type: 'timeline',
-            inverted: true,
-            backgroundColor: 'transparent',
-            spacingTop: 80,
-            spacingRight: 20,
-            spacingBottom: 40,
-            spacingLeft: 20
-          },
-          credits: { enabled: false },
-          title: { text: data.title, style: { display: 'none' } },
-          xAxis: { visible: false },
-          yAxis: { visible: false },
-          legend: { enabled: false },
-          tooltip: {
-            useHTML: true,
-            borderRadius: 4,
-            padding: 10,
-            style: { fontSize: '0.9rem', lineHeight: '1.25' },
-            pointFormat: '<strong>{point.name}</strong><br><span style="line-height:1.25">{point.description}</span>'
-          },
-          series: [{
-            data: points,
-            colorByPoint: false,
-            color: '#7b4f2f',
-            lineWidth: 2,
-            dataLabels: {
-              useHTML: true,
-              allowOverlap: false,
-              crop: false,
-              overflow: 'allow',
-              connectorWidth: 1,
-              formatter: function() {
-                return '<span class="timeline-label ' + this.point.labelType + '">' + this.point.name + '</span>';
-              },
-              style: {
-                textOutline: 'none',
-                fontFamily: 'Georgia, serif'
-              }
-            }
-          }]
-        });
+        const container = document.getElementById('delmara-timeline');
+        container.innerHTML = data.eras.map(function(era) {
+          const events = (era.events || []).map(function(event) {
+            return '<div class="timeline-event"><strong>' + event.name + '</strong><span>' + event.summary + '</span></div>';
+          }).join('');
+          return '<section class="timeline-era"><h2>' + era.name + '</h2><p>' + era.summary + '</p><div class="timeline-events">' + events + '</div></section>';
+        }).join('');
+      })
+      .catch(function() {
+        document.getElementById('delmara-timeline').innerHTML = '<p>The timeline could not be loaded.</p>';
       });
   </script>
+  <script src="scripts/nav.js"></script>
+  <script src="scripts/glossary-links.js"></script>
+  <script src="scripts/pronunciation.js"></script>
 </body>
 </html>
