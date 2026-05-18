@@ -2,7 +2,9 @@
 
 - Public-facing canon belongs in this repository.
 - New named places, cities, regions, peoples, groups, or major concepts should receive at least a placeholder page when introduced as public canon.
-- All references to public canon entities should link to their page wherever practical.
+- Add public canon entities with pages to `/data/glossary.json` so the deployment build can autolink them across content pages.
+- The live GitHub Pages site is generated into `_site` by `scripts/autolink.js` during deployment; do not edit `_site` directly.
+- All references to public canon entities should link to their page wherever practical. Routine cross-page linking may be handled by the glossary autolinker; intentional/source links may still be added directly in HTML.
 - Prefer updating adjacent index/list pages and cross-references in the same change.
 - Keep placeholder pages concise and marked as awaiting fuller canon.
 - Media for public wiki pages belongs in `/media`; use descriptive filenames when possible.
