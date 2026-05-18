@@ -93,13 +93,13 @@ a { color: inherit; }
 .page-shell {
   width: min(100% - 2rem, var(--max-width));
   margin: 0 auto;
-  padding: 10vh 0;
+  padding: 7vh 0;
 }
 
 .home-shell {
   min-height: 100vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
   display: flex;
   align-items: center;
 }
@@ -146,10 +146,10 @@ a { color: inherit; }
 }
 
 .eyebrow {
-  margin: 0 0 0.9rem;
+  margin: 0 0 0.7rem;
   color: var(--accent);
   font-family: var(--font-ui);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -160,45 +160,45 @@ h2,
 h3 {
   font-family: var(--font-heading);
   font-weight: 700;
-  letter-spacing: 0.015em;
-  line-height: 1;
+  letter-spacing: 0.01em;
+  line-height: 1.04;
 }
 
 h1 {
   margin: 0;
-  font-size: clamp(4.5rem, 16vw, 10rem);
+  font-size: clamp(3.2rem, 10vw, 6.5rem);
 }
 
 h2 {
-  margin: 2rem 0 0.5rem;
-  font-size: clamp(2.15rem, 7vw, 3.5rem);
+  margin: 1.6rem 0 0.45rem;
+  font-size: clamp(1.75rem, 4.6vw, 2.55rem);
 }
 
 h3 {
-  margin: 1.5rem 0 0.4rem;
-  font-size: clamp(1.7rem, 5vw, 2.5rem);
+  margin: 1.25rem 0 0.35rem;
+  font-size: clamp(1.35rem, 3.6vw, 1.9rem);
 }
 
-.page-title { font-size: clamp(3.25rem, 10vw, 6.5rem); }
+.page-title { font-size: clamp(2.7rem, 7.5vw, 4.75rem); }
 
-.hero h1 { font-size: clamp(3.75rem, 14vw, 8rem); }
+.hero h1 { font-size: clamp(3.25rem, 10vw, 6.25rem); }
 
 .lede {
   max-width: 43rem;
-  margin-top: 1.25rem;
+  margin-top: 0.95rem;
   color: var(--muted);
-  font-size: clamp(1.55rem, 4.8vw, 2.3rem);
-  line-height: 1.35;
+  font-size: clamp(1.35rem, 3.7vw, 1.9rem);
+  line-height: 1.32;
 }
 
 .article p {
-  font-size: clamp(1.35rem, 4.3vw, 1.9rem);
+  font-size: clamp(1.2rem, 3.4vw, 1.55rem);
   line-height: 1.45;
 }
 
 blockquote {
-  margin: 2rem 0;
-  padding: 1.25rem 1.4rem;
+  margin: 1.6rem 0;
+  padding: 1.15rem 1.3rem;
   border: 1px solid rgba(111, 92, 67, 0.32);
   border-left: 5px solid var(--accent);
   border-radius: 0.9rem;
@@ -212,15 +212,15 @@ blockquote p,
 .article blockquote p {
   margin: 0;
   font-family: var(--font-heading);
-  font-size: clamp(1.25rem, 3.2vw, 1.65rem);
+  font-size: clamp(1.1rem, 2.8vw, 1.38rem);
   line-height: 1.35;
 }
 
 blockquote footer {
-  margin-top: 0.75rem;
+  margin-top: 0.65rem;
   color: var(--muted);
   font-family: var(--font-ui);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-align: right;
@@ -231,13 +231,13 @@ blockquote footer {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
-  margin-top: 2.25rem;
+  margin-top: 1.75rem;
 }
 
 .button-card {
   display: block;
-  min-height: 8rem;
-  padding: 1.15rem 1.2rem;
+  min-height: 7.1rem;
+  padding: 1rem 1.1rem;
   border: 1px solid rgba(111, 92, 67, 0.34);
   background: rgba(255, 250, 233, 0.28);
   box-shadow: 0 10px 24px rgba(75, 49, 20, 0.06);
@@ -255,10 +255,10 @@ blockquote footer {
 
 .button-icon {
   display: inline-block;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.45rem;
   color: var(--accent);
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1;
 }
 
@@ -266,7 +266,7 @@ blockquote footer {
   display: block;
   color: var(--ink);
   font-family: var(--font-ui);
-  font-size: 1.5rem;
+  font-size: 1.32rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -274,9 +274,9 @@ blockquote footer {
 
 .button-card small {
   display: block;
-  margin-top: 0.45rem;
+  margin-top: 0.38rem;
   color: var(--muted);
-  font-size: 1.2rem;
+  font-size: 1.06rem;
 }
 
 .button-card:hover,
@@ -288,8 +288,8 @@ blockquote footer {
 .back-link { display: none; }
 
 .placeholder {
-  margin-top: 2rem;
-  padding: 1.25rem;
+  margin-top: 1.6rem;
+  padding: 1.1rem;
   border-left: 4px solid var(--accent);
   background: rgba(255, 250, 233, 0.32);
   color: var(--muted);
@@ -333,16 +333,16 @@ blockquote footer {
     text-align: right;
   }
 
-  .page-shell { padding: 7vh 0; }
+  .page-shell { padding: 5vh 0; }
 
   .home-shell {
     min-height: 100vh;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .home-page .hero {
-    padding: 1.25rem;
+    padding: 1.15rem;
     border-radius: 0.9rem;
   }
 
@@ -354,7 +354,7 @@ blockquote footer {
 
   .hero-image {
     aspect-ratio: 16 / 9;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.1rem;
     border-left: 0;
     border-right: 0;
   }
