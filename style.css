@@ -266,8 +266,8 @@ blockquote footer {
   border-color: var(--accent);
 }
 
-.home-page .button-card span { color: var(--ink); }
-.home-page .button-card small { color: var(--muted); }
+.home-page .button-card span,
+.home-page .button-card small { color: #120c07; }
 .home-page .button-icon { color: var(--accent); }
 
 .button-card > img.button-icon,
