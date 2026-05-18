@@ -255,14 +255,14 @@ blockquote footer {
 
 .home-page .button-card {
   border-color: rgba(111, 92, 67, 0.42);
-  background: var(--paper);
+  background: rgba(244, 236, 216, 0.78);
   box-shadow: 0 14px 30px rgba(20, 14, 9, 0.28);
   text-shadow: none;
 }
 
 .home-page .button-card:hover,
 .home-page .button-card:focus {
-  background: #fff7df;
+  background: rgba(255, 247, 223, 0.9);
   border-color: var(--accent);
 }
 
