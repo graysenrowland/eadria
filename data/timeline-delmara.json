@@ -5,7 +5,7 @@
     {
       "id": "aurumveldian-era",
       "name": "Aurumveldian Era",
-      "summary": "The age of Aurumveldor, before the Great Deluge remade the Land Above.",
+      "summary": "The age of Aurumveldor, before the Great Deluge remade Delmara.",
       "events": [
         {
           "id": "keepers-established",
@@ -24,7 +24,7 @@
     {
       "id": "current-era",
       "name": "Current Era",
-      "summary": "The present age of Delmara, the Land Above after the flood and remaking of the old world.",
+      "summary": "The present age of Delmara after the flood and remaking of the old world.",
       "events": [
         {
           "id": "axont-established",
