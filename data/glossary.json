@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "description": "Public wiki glossary used by the deployment autolinker. Add public canon entities here when they have pages.",
+  "entities": [
+    {
+      "name": "Eadria",
+      "url": "regions/eadria.html",
+      "aliases": []
+    },
+    {
+      "name": "Delmara",
+      "url": "regions/delmara.html",
+      "aliases": ["Drowned Land"]
+    },
+    {
+      "name": "Vireldon",
+      "url": "regions/vireldon.html",
+      "aliases": ["Realm of Vireldon", "People of Axont", "Peoples of Axont"]
+    },
+    {
+      "name": "Lake Imryll",
+      "url": "regions/lake-imryll.html",
+      "aliases": []
+    },
+    {
+      "name": "Draemyr",
+      "url": "regions/draemyr.html",
+      "aliases": []
+    },
+    {
+      "name": "Kel Alari",
+      "url": "regions/kel-alari.html",
+      "aliases": []
+    },
+    {
+      "name": "Sylmora",
+      "url": "regions/sylmora.html",
+      "aliases": []
+    },
+    {
+      "name": "Dughfaldur",
+      "url": "regions/dughfaldur.html",
+      "aliases": []
+    },
+    {
+      "name": "Bol Boldihr",
+      "url": "regions/bol-boldihr.html",
+      "aliases": []
+    },
+    {
+      "name": "Ondris Sea",
+      "url": "regions/ondris-sea.html",
+      "aliases": []
+    },
+    {
+      "name": "Fallbay",
+      "url": "regions/fallbay.html",
+      "aliases": []
+    },
+    {
+      "name": "Kinallen",
+      "url": "regions/kinallen.html",
+      "aliases": []
+    },
+    {
+      "name": "Illadell",
+      "url": "regions/illadell.html",
+      "aliases": []
+    },
+    {
+      "name": "Vereduhr",
+      "url": "regions/vereduhr.html",
+      "aliases": []
+    },
+    {
+      "name": "Aurnoore",
+      "url": "regions/aurnoore.html",
+      "aliases": []
+    },
+    {
+      "name": "Deadrock",
+      "url": "regions/deadrock.html",
+      "aliases": []
+    },
+    {
+      "name": "Kar Tarihr",
+      "url": "regions/kar-tarihr.html",
+      "aliases": []
+    },
+    {
+      "name": "Rivercrest",
+      "url": "regions/rivercrest.html",
+      "aliases": []
+    },
+    {
+      "name": "Orma Aiqua",
+      "url": "regions/orma-aiqua.html",
+      "aliases": []
+    },
+    {
+      "name": "Grugrazzir",
+      "url": "regions/grugrazzir.html",
+      "aliases": []
+    },
+    {
+      "name": "Humans",
+      "url": "races/humans.html",
+      "aliases": ["human", "humans"]
+    },
+    {
+      "name": "Elves",
+      "url": "races/elves.html",
+      "aliases": ["elf", "elves"]
+    },
+    {
+      "name": "Dwarves",
+      "url": "races/dwarves.html",
+      "aliases": ["dwarf", "dwarves"]
+    },
+    {
+      "name": "Orcs",
+      "url": "races/orcs.html",
+      "aliases": ["orc", "orcs"]
+    },
+    {
+      "name": "Icena",
+      "url": "peoples/icena.html",
+      "aliases": ["the Icena"]
+    },
+    {
+      "name": "Klad",
+      "url": "peoples/klad.html",
+      "aliases": ["the Klad"]
+    },
+    {
+      "name": "The Old Way",
+      "url": "groups/the-old-way.html",
+      "aliases": ["Old Way", "Eldiri", "Oldiri"]
+    }
+  ]
+}
