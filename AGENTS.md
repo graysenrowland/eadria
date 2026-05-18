@@ -18,6 +18,7 @@
 - Do not introduce new image wrapper classes for routine feature images unless also adding shared CSS and applying it consistently.
 - Before adding or adjusting page images, check nearby established pages and reuse the existing pattern.
 - Keep visual changes consistent across the wiki; avoid one-off layout decisions.
+- Pronunciation helpers should be used only on page titles for the term’s own page, using `<span class="pronounce" data-pronunciation="...">Name</span>` inside the page title. Do not add pronunciation helpers through the autolinker, navigation, buttons, inline links, or body text.
 
 ## Illustration Direction
 
