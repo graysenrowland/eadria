@@ -95,7 +95,8 @@
     {
       "name": "Orma Aiqua",
       "url": "regions/orma-aiqua.html",
-      "aliases": []
+      "aliases": [],
+      "pronunciation": "or-my-AI-kwa"
     },
     {
       "name": "Grugrazzir",
@@ -136,6 +137,18 @@
       "name": "The Old Way",
       "url": "groups/the-old-way.html",
       "aliases": ["Old Way", "Eldiri", "Oldiri"]
+    },
+    {
+      "name": "Eadra",
+      "url": "faiths/index.html",
+      "aliases": [],
+      "pronunciation": "EE-ay-druh"
+    },
+    {
+      "name": "Dreadara",
+      "url": "faiths/index.html",
+      "aliases": [],
+      "pronunciation": "DRAY-uh-DAR-uh"
     }
   ]
 }
