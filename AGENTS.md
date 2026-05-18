@@ -12,6 +12,13 @@
 - Page hierarchy should distinguish regions from places. For both Delmara and Eadria, organize broad geographic regions above individual cities, settlements, ruins, and other places.
 - Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
 
+## Site Layout Standards
+
+- For standard page feature images, use `<img class="hero-image" ...>` unless the user explicitly requests a different layout.
+- Do not introduce new image wrapper classes for routine feature images unless also adding shared CSS and applying it consistently.
+- Before adding or adjusting page images, check nearby established pages and reuse the existing pattern.
+- Keep visual changes consistent across the wiki; avoid one-off layout decisions.
+
 ## Illustration Direction
 
 - Favor an oil-painting / traditional painted look rather than glossy digital fantasy art.

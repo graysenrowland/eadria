@@ -105,7 +105,8 @@ function loadTerms() {
       terms.push({
         entityName: entity.name,
         term: name,
-        url: entity.url.replace(/^\//, '')
+        url: entity.url.replace(/^\//, ''),
+        pronunciation: entity.pronunciation || null
       });
     }
   }
@@ -118,6 +119,11 @@ function relativeHref(fromFile, targetUrl) {
   let href = path.posix.relative(fromDir.split(path.sep).join('/'), targetUrl);
   if (!href.startsWith('.')) href = `./${href}`;
   return href;
+}
+
+function buildLink(href, text, pronunciation) {
+  if (!pronunciation) return `<a href="${href}">${text}</a>`;
+  return `<a class="pronounce" href="${href}" data-pronunciation="${htmlEscape(pronunciation)}">${text}</a>`;
 }
 
 function linkText(text, terms, currentPage) {
@@ -133,7 +139,7 @@ function linkText(text, terms, currentPage) {
     if (!match) continue;
 
     const href = htmlEscape(relativeHref(currentPage.absolutePath, term.url));
-    result = result.replace(pattern, `${match[1]}<a href="${href}">${match[2]}</a>`);
+    result = result.replace(pattern, `${match[1]}${buildLink(href, match[2], term.pronunciation)}`);
     linkedInThisTextNode.add(term.entityName);
   }
 
