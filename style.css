@@ -270,10 +270,13 @@ blockquote footer {
 .home-page .button-card small { color: var(--muted); }
 .home-page .button-icon { color: var(--accent); }
 
+.button-card > img.button-icon,
 .button-icon {
   display: block;
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  max-width: 1.25rem !important;
+  max-height: 1.25rem !important;
   margin-bottom: 0.45rem;
   object-fit: contain;
 }
