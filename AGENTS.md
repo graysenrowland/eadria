@@ -7,6 +7,8 @@
 - Keep placeholder pages concise and marked as awaiting fuller canon.
 - Media for public wiki pages belongs in `/media`; use descriptive filenames when possible.
 - Preserve the writer's wording and avoid adding lore beyond approved canon.
+- Page hierarchy should distinguish regions from places. For both Delmara and Eadria, organize broad geographic regions above individual cities, settlements, ruins, and other places.
+- Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
 
 ## Illustration Direction
 
