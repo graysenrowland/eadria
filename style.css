@@ -154,6 +154,12 @@ a { color: inherit; }
   box-shadow: 0 16px 34px rgba(75, 49, 20, 0.12);
 }
 
+.map-image {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .eyebrow {
   margin: 0 0 0.7rem;
   color: var(--accent);
@@ -373,6 +379,11 @@ blockquote footer {
     margin-bottom: 1.1rem;
     border-left: 0;
     border-right: 0;
+  }
+
+  .map-image {
+    aspect-ratio: auto;
+    height: auto;
   }
 
   .image-plate .hero-image { margin-bottom: 0.2rem; }
