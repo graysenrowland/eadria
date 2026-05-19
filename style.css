@@ -175,6 +175,22 @@ a { color: inherit; }
   box-shadow: 0 16px 34px rgba(75, 49, 20, 0.12);
 }
 
+.feature-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid rgba(111, 92, 67, 0.38);
+  box-shadow: 0 16px 34px rgba(75, 49, 20, 0.12);
+}
+
+.artifact-image {
+  width: min(100%, 22rem);
+  max-height: 24rem;
+  object-fit: contain;
+  background: rgba(255, 250, 233, 0.42);
+}
+
 .map-image {
   aspect-ratio: auto;
   height: auto;
@@ -405,6 +421,11 @@ blockquote footer {
   .map-image {
     aspect-ratio: auto;
     height: auto;
+  }
+
+  .artifact-image {
+    width: min(100%, 18rem);
+    max-height: 20rem;
   }
 
   .image-plate .hero-image { margin-bottom: 0.2rem; }
