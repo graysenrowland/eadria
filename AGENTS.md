@@ -16,8 +16,9 @@
 ## Site Layout Standards
 
 - For standard page feature images, use `<img class="hero-image" ...>` unless the user explicitly requests a different layout.
-- Standard feature images should be wide landscape, ideally 16:9.
-- Preferred source size for generated feature art is 1792 × 1024 or equivalent widescreen landscape, then crop or display safely for 16:9 page usage as needed.
+- Standard feature images should be wide landscape and should fit the wiki feature-frame crop used on content pages.
+- Preferred source size for generated feature art is 1792 × 1024 or equivalent widescreen landscape, composed with enough safe margin to crop cleanly into the displayed feature frame, which may appear wider than 16:9 depending on page width.
+- For creature and object feature images, keep the full subject readable after a wide page crop: center the subject, avoid placing the face or important details near the top, bottom, or extreme sides, and leave atmospheric negative space around it.
 - Keep the main subject and important symbols away from the extreme edges so responsive cropping does not cut them off.
 - Do not introduce new image wrapper classes for routine feature images unless also adding shared CSS and applying it consistently.
 - Before adding or adjusting page images, check nearby established pages and reuse the existing pattern.
@@ -40,7 +41,7 @@
 - Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, over-resolved textures, ultra-detailed cityscapes, intricate fantasy megacity design, and AAA concept-art polish.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
 - Default to landscape-oriented compositions unless another orientation is specifically requested.
-- For wiki feature photos, use wide landscape / 16:9 framing unless the user specifically asks otherwise.
+- For wiki feature photos, use wide landscape framing suitable for the live feature-image crop unless the user specifically asks otherwise.
 - Avoid obvious AI-pattern density, excessive ornament, impossible architecture, and cluttered detailing.
 - Composition should be readable and atmospheric, with strong practical pathways, geography, and spatial logic. Avoid making every piece feel like an epic action poster.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
@@ -55,7 +56,7 @@
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, wide 16:9 landscape composition.
+> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, wide landscape composition suitable for the wiki feature-image crop, generated around 1792 × 1024 or equivalent with safe margins for a wider displayed crop.
 
 Avoid by default:
 
