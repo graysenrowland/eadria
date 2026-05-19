@@ -26,7 +26,10 @@
 
 ## Illustration Direction
 
-- Favor an oil-painting / traditional painted look rather than glossy digital fantasy art.
+- Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
+- Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, and distant figures should often be suggested through brushwork rather than fully resolved.
+- Prefer visible brush texture, softened edges, expressive but not hyperreal eyes, natural color, atmospheric depth, and serious historical-archive illustration energy.
+- Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, and over-resolved textures.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
 - Default to landscape-oriented compositions unless another orientation is specifically requested.
 - For wiki feature photos, use wide landscape / 16:9 framing unless the user specifically asks otherwise.
@@ -37,6 +40,16 @@
 - Do not use flags, banners, or insignia in ways that imply territorial ownership unless that is canonically intended.
 - When generating emblems, insignia, banners, armor markings, or symbolic motifs, account for the associated pantheons, groups, peoples, regions, and political relationships already established in canon.
 - Avoid generic symbols when a canon-linked symbol exists; avoid introducing symbols that imply false allegiance, ownership, worship, or political control.
+
+## Image Prompt Baseline
+
+Use this baseline direction for new Eadria artwork unless the user requests otherwise:
+
+> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, natural color, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
+
+Avoid by default:
+
+> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, excessive ornament, impossible architecture, cluttered detailing.
 
 ## Depicting the Keepers of Volelia
 
