@@ -26,6 +26,9 @@
 
 ## Illustration Direction
 
+- For any request to generate Eadria artwork, an illustration, a feature image, a creature image, character art, concept art, or a scene, automatically apply the Image Prompt Baseline and Avoid list below unless the user explicitly overrides them.
+- Generated Eadria artwork should depict only the requested subject or scene, not a webpage, UI mockup, card layout, spec sheet, infographic, labeled reference sheet, menu, sidebar, typography sample, or bestiary page unless the user specifically asks for one.
+- When the user says “use the repo guidance,” “use AGENTS.md,” or refers to existing Eadria image preferences, restate the Image Prompt Baseline into the image prompt rather than relying on the image tool to infer it.
 - Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
 - The house style should feel like a serious illustrated chronicle or storybook plate, not a game loading screen, movie still, or polished digital concept-art render.
 - Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, architecture, and distant figures should often be suggested through brushwork rather than fully resolved.
@@ -56,7 +59,7 @@ Use this baseline direction for new Eadria artwork unless the user requests othe
 
 Avoid by default:
 
-> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, ultra-detailed cityscape, intricate fantasy megacity, AAA game concept art, game loading screen, epic action poster, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing, decorative flags, random banners, generic heraldry, meaningless hanging emblems.
+> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, ultra-detailed cityscape, intricate fantasy megacity, AAA game concept art, game loading screen, epic action poster, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing, decorative flags, random banners, generic heraldry, meaningless hanging emblems, webpage, UI mockup, card layout, spec sheet, infographic, labeled reference sheet, menu, sidebar, typography sample, bestiary page.
 
 ## Depicting the Keepers of Volelia
 
