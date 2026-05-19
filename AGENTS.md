@@ -27,17 +27,19 @@
 ## Illustration Direction
 
 - Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
-- Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, and distant figures should often be suggested through brushwork rather than fully resolved.
+- The house style should feel like a serious illustrated chronicle or storybook plate, not a game loading screen, movie still, or polished digital concept-art render.
+- Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, architecture, and distant figures should often be suggested through brushwork rather than fully resolved.
 - Prefer visible brush texture, softened edges, expressive but not hyperreal eyes, natural color, atmospheric depth, and serious historical-archive illustration energy.
+- Keep large scenes visually simplified: use clear silhouette masses, fewer tiny architectural elements, less micro-detail, and stronger atmosphere rather than dense rendered complexity.
 - Do not default to brown, sepia, gray, or drab earth tones. Let each subject keep a distinct color identity: lake blues, forest greens, mineral blues, candle-gold, sea-glass tones, snow light, deep crimson, harvest colors, etc.
 - Use selective focal color to guide the eye: one or two memorable colors may anchor the main subject, shield, garment, water, firelight, symbol, or sacred object while the surrounding scene remains atmospheric.
 - Colors may be rich, memorable, and regionally expressive while remaining natural, painterly, grounded, and non-glossy.
-- Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, and over-resolved textures.
+- Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, over-resolved textures, ultra-detailed cityscapes, intricate fantasy megacity design, and AAA concept-art polish.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
 - Default to landscape-oriented compositions unless another orientation is specifically requested.
 - For wiki feature photos, use wide landscape / 16:9 framing unless the user specifically asks otherwise.
 - Avoid obvious AI-pattern density, excessive ornament, impossible architecture, and cluttered detailing.
-- Composition should be cinematic but readable, often wide-angle when useful, with strong practical pathways, geography, and spatial logic.
+- Composition should be readable and atmospheric, with strong practical pathways, geography, and spatial logic. Avoid making every piece feel like an epic action poster.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
 - For Eadrian civilization scenes, prefer practical lived-in medieval design over high-fantasy spectacle.
 - Do not use flags, banners, or insignia in ways that imply territorial ownership unless that is canonically intended.
@@ -48,11 +50,11 @@
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
+> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, wide 16:9 landscape composition.
 
 Avoid by default:
 
-> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing.
+> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, ultra-detailed cityscape, intricate fantasy megacity, AAA game concept art, game loading screen, epic action poster, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing.
 
 ## Depicting the Keepers of Volelia
 
