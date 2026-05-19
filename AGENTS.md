@@ -15,6 +15,9 @@
 ## Site Layout Standards
 
 - For standard page feature images, use `<img class="hero-image" ...>` unless the user explicitly requests a different layout.
+- Standard feature images should be wide landscape, ideally 16:9.
+- Preferred source size for generated feature art is 1792 × 1024 or equivalent widescreen landscape, then crop or display safely for 16:9 page usage as needed.
+- Keep the main subject and important symbols away from the extreme edges so responsive cropping does not cut them off.
 - Do not introduce new image wrapper classes for routine feature images unless also adding shared CSS and applying it consistently.
 - Before adding or adjusting page images, check nearby established pages and reuse the existing pattern.
 - Keep visual changes consistent across the wiki; avoid one-off layout decisions.
@@ -25,6 +28,7 @@
 - Favor an oil-painting / traditional painted look rather than glossy digital fantasy art.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
 - Default to landscape-oriented compositions unless another orientation is specifically requested.
+- For wiki feature photos, use wide landscape / 16:9 framing unless the user specifically asks otherwise.
 - Avoid obvious AI-pattern density, excessive ornament, impossible architecture, and cluttered detailing.
 - Composition should be cinematic but readable, often wide-angle when useful, with strong practical pathways, geography, and spatial logic.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
@@ -39,9 +43,11 @@
 - Their visual tone should emphasize mercy, hospitality, courage, remembrance, and the preservation of life.
 - Sunlight, dawn, warm light, flowers, rescued civilians, and acts of gentleness are fitting motifs.
 - Their insignia always references the light of the sun, but should not be placed on local flags or banners unless the Keepers canonically hold that place.
-- Their armor is ornate engraved steel, often with blue mineral and warm bronze/brass inlays.
+- Their armor is modest engraved steel, not ostentatious noble armor.
+- Blue mineral and warm bronze/brass inlays may be used sparingly, but the overall read should remain humble, practical, and protective.
 - The armor's beauty represents devotion to portraying the beauty of life, not riches, status, or worldly success.
 - Engravings should feel meaningful: names of the fallen, remembered lives, vows, flowers, sunbursts, roads, tears, rivers, and scenes of mercy.
 - Each Keeper's armor may reflect their own hand and character: severe, martial, graceful, natural, masculine, feminine, radiant, or austere.
+- Avoid lions or generic royal/imperial motifs unless explicitly requested.
 - Avoid making them look ostentatiously rich. Their beauty should come from patient craft, humility, and remembrance.
 - Roulant and his Keepers may be depicted as defenders of the vulnerable, especially in scenes of evacuation, rescue, and defiance of armies for the sake of civilians.
