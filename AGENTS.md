@@ -30,6 +30,7 @@
 - Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, and distant figures should often be suggested through brushwork rather than fully resolved.
 - Prefer visible brush texture, softened edges, expressive but not hyperreal eyes, natural color, atmospheric depth, and serious historical-archive illustration energy.
 - Do not default to brown, sepia, gray, or drab earth tones. Let each subject keep a distinct color identity: lake blues, forest greens, mineral blues, candle-gold, sea-glass tones, snow light, deep crimson, harvest colors, etc.
+- Use selective focal color to guide the eye: one or two memorable colors may anchor the main subject, shield, garment, water, firelight, symbol, or sacred object while the surrounding scene remains atmospheric.
 - Colors may be rich, memorable, and regionally expressive while remaining natural, painterly, grounded, and non-glossy.
 - Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, and over-resolved textures.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
@@ -47,7 +48,7 @@
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
+> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
 
 Avoid by default:
 
