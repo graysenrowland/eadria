@@ -42,7 +42,9 @@
 - Composition should be readable and atmospheric, with strong practical pathways, geography, and spatial logic. Avoid making every piece feel like an epic action poster.
 - Use restrained fantasy: wonder should feel ancient, natural, sacred, or historical rather than flashy.
 - For Eadrian civilization scenes, prefer practical lived-in medieval design over high-fantasy spectacle.
-- Do not use flags, banners, or insignia in ways that imply territorial ownership unless that is canonically intended.
+- Do not use flags, banners, standards, pennants, hanging emblems, or insignia as decorative filler. Include them only when the user asks for them or when a canonically appropriate group, realm, army, temple, ship, fortress, or ceremonial setting would realistically display them.
+- Do not add banners to rural villages, wilderness paths, ruins, village outskirts, Icena settlements, or ordinary roads unless the banner itself is specifically meaningful and approved.
+- When symbols are appropriate, prefer practical placement on shields, carved lintels, armor engravings, signboards, seals, ritual objects, or worn everyday objects rather than random hanging flags.
 - When generating emblems, insignia, banners, armor markings, or symbolic motifs, account for the associated pantheons, groups, peoples, regions, and political relationships already established in canon.
 - Avoid generic symbols when a canon-linked symbol exists; avoid introducing symbols that imply false allegiance, ownership, worship, or political control.
 
@@ -54,7 +56,7 @@ Use this baseline direction for new Eadria artwork unless the user requests othe
 
 Avoid by default:
 
-> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, ultra-detailed cityscape, intricate fantasy megacity, AAA game concept art, game loading screen, epic action poster, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing.
+> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, ultra-detailed cityscape, intricate fantasy megacity, AAA game concept art, game loading screen, epic action poster, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing, decorative flags, random banners, generic heraldry, meaningless hanging emblems.
 
 ## Depicting the Keepers of Volelia
 
