@@ -16,9 +16,10 @@
 ## Site Layout Standards
 
 - For standard page feature images, use `<img class="hero-image" ...>` unless the user explicitly requests a different layout.
-- Standard feature images should be wide landscape and should fit the wiki feature-frame crop used on content pages.
-- Preferred source size for generated feature art is 1792 × 1024 or equivalent widescreen landscape, composed with enough safe margin to crop cleanly into the displayed feature frame, which may appear wider than 16:9 depending on page width.
-- For creature and object feature images, keep the full subject readable after a wide page crop: center the subject, avoid placing the face or important details near the top, bottom, or extreme sides, and leave atmospheric negative space around it.
+- Standard feature images should be wide landscape and should be composed for the live wiki feature-frame crop, not merely for a generic 16:9 image.
+- Primary target for generated wiki feature art is approximately 2.25:1, matching the displayed feature frame on content pages.
+- Preferred source sizes include 2304 × 1024, 2048 × 896, or equivalent very-wide landscape ratios. If the generator only supports 1792 × 1024 or another less-wide size, compose as though the top and bottom will be cropped heavily.
+- For creature and object feature images, keep the full subject readable after the live wide crop: center the subject in the central horizontal band, keep the face and important details away from the top, bottom, and extreme sides, and leave extra atmospheric side room.
 - Keep the main subject and important symbols away from the extreme edges so responsive cropping does not cut them off.
 - Do not introduce new image wrapper classes for routine feature images unless also adding shared CSS and applying it consistently.
 - Before adding or adjusting page images, check nearby established pages and reuse the existing pattern.
@@ -56,7 +57,7 @@
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, wide landscape composition suitable for the wiki feature-image crop, generated around 1792 × 1024 or equivalent with safe margins for a wider displayed crop.
+> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, very wide landscape composition composed for the live wiki feature-image crop, approximately 2.25:1 such as 2304 × 1024 or 2048 × 896, with the subject centered in the central horizontal band and safe margins on all sides.
 
 Avoid by default:
 
