@@ -11,6 +11,7 @@
 - Preserve the writer's wording and avoid adding lore beyond approved canon.
 - Page hierarchy should distinguish regions from places. For both Delmara and Eadria, organize broad geographic regions above individual cities, settlements, ruins, and other places.
 - Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
+- When creating or editing public pages, version local CSS, JS, and media URLs with the current cache key using `?v=YYYYMMDD` so mobile/browser caches refresh reliably.
 
 ## Site Layout Standards
 
