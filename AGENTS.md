@@ -29,6 +29,8 @@
 - Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
 - Images should leave some visual mystery. Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, and distant figures should often be suggested through brushwork rather than fully resolved.
 - Prefer visible brush texture, softened edges, expressive but not hyperreal eyes, natural color, atmospheric depth, and serious historical-archive illustration energy.
+- Do not default to brown, sepia, gray, or drab earth tones. Let each subject keep a distinct color identity: lake blues, forest greens, mineral blues, candle-gold, sea-glass tones, snow light, deep crimson, harvest colors, etc.
+- Colors may be rich, memorable, and regionally expressive while remaining natural, painterly, grounded, and non-glossy.
 - Avoid photorealism, camera-like depth of field, glossy digital rendering, hyper-detailed faces, visible pores, over-sharp eyes, and over-resolved textures.
 - Aim for medieval, grounded, believable construction, clothing, armor, and landscapes.
 - Default to landscape-oriented compositions unless another orientation is specifically requested.
@@ -45,11 +47,11 @@
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, natural color, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
+> Hand-painted fantasy illustration, painterly storybook realism, suggestive brushwork, softened facial details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, grounded medieval design, readable forms, leaves some things to the imagination, serious historical-fantasy archive illustration, wide 16:9 landscape composition.
 
 Avoid by default:
 
-> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, excessive ornament, impossible architecture, cluttered detailing.
+> photorealistic, hyperrealistic, glossy digital art, cinematic still, realistic eyes, detailed pores, camera depth of field, ultra-sharp, over-rendered faces, over-resolved textures, default sepia palette, drab brown sameness, excessive ornament, impossible architecture, cluttered detailing.
 
 ## Depicting the Keepers of Volelia
 
