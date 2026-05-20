@@ -33,6 +33,10 @@
 - When the user says “use the repo guidance,” “use AGENTS.md,” or refers to existing Eadria image preferences, restate the Image Prompt Baseline into the image prompt rather than relying on the image tool to infer it.
 - Generated Eadria artwork should depict only the requested subject or scene, not a webpage, UI mockup, card layout, spec sheet, infographic, labeled reference sheet, menu, sidebar, typography sample, or bestiary page unless the user specifically asks for one.
 - The house style is a serious illustrated chronicle or historical storybook plate.
+- The signature of Eadrian artwork is selective focal color: a few carefully chosen colors should pull the viewer’s eye through the painting and make the image memorable.
+- Focal color should feel intentional and painterly, not glossy, neon, over-saturated, or digitally glowing.
+- Use focal color to emphasize the true center of attention: a face, shield mark, candle, flower, river bend, garment edge, animal eye, sacred object, distant window, ember, or other meaningful visual anchor.
+- Surrounding color should support the focal color with quieter atmospheric harmony, so the eye naturally lands where the scene wants it to land.
 - Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
 - Use visible brush texture, softened edges, matte surfaces, atmospheric depth, and restrained detail.
 - Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, architecture, and distant figures should often be suggested through brushwork rather than fully resolved.
@@ -98,11 +102,11 @@ If the image starts to feel cinematic, photographic, glossy, or like a game conc
 
 Use this baseline direction for new Eadria artwork unless the user requests otherwise:
 
-> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, historical storybook plate, visible brush texture, softened edges, suggestive brushwork, softened facial and eye details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye, grounded medieval design, believable materials, matte surfaces, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, very wide landscape composition composed for the live wiki feature-image crop, approximately 2.25:1 such as 2304 × 1024 or 2048 × 896, with the subject centered in the central horizontal band and safe margins on all sides.
+> Hand-painted fantasy illustration, painterly storybook realism, serious illustrated chronicle, historical storybook plate, visible brush texture, softened edges, suggestive brushwork, softened facial and eye details, expressive but not hyperreal eyes, atmospheric edges, rich but natural subject-specific color, selective focal color guiding the eye as the signature of Eadrian artwork, a few intentional colors pulling attention to the main visual anchor, grounded medieval design, believable materials, matte surfaces, readable forms, simplified silhouette masses, restrained detail, leaves some things to the imagination, very wide landscape composition composed for the live wiki feature-image crop, approximately 2.25:1 such as 2304 × 1024 or 2048 × 896, with the subject centered in the central horizontal band and safe margins on all sides.
 
 Avoid by default:
 
-> photorealistic, hyperrealistic, lifelike render, glossy digital art, cinematic still, cinematic lighting, cinematic landscape, movie frame, promotional key art, AAA game concept art, game loading screen, modern fantasy poster, lens flare, golden-hour photo look, dramatic sun glare, camera depth of field, crisp photographic lighting, realistic eyes, detailed pores, ultra-sharp, over-rendered faces, over-resolved textures, highly reflective polished armor, ultra-detailed fur, ultra-detailed vegetation, excessive ornament, impossible architecture, cluttered detailing, decorative flags, random banners, generic heraldry, meaningless hanging emblems, webpage, UI mockup, card layout, spec sheet, infographic, labeled reference sheet, menu, sidebar, typography sample, bestiary page.
+> photorealistic, hyperrealistic, lifelike render, glossy digital art, cinematic still, cinematic lighting, cinematic landscape, movie frame, promotional key art, AAA game concept art, game loading screen, modern fantasy poster, lens flare, golden-hour photo look, dramatic sun glare, camera depth of field, crisp photographic lighting, realistic eyes, detailed pores, ultra-sharp, over-rendered faces, over-resolved textures, highly reflective polished armor, ultra-detailed fur, ultra-detailed vegetation, excessive ornament, impossible architecture, cluttered detailing, decorative flags, random banners, generic heraldry, meaningless hanging emblems, neon color, over-saturated focal glow, webpage, UI mockup, card layout, spec sheet, infographic, labeled reference sheet, menu, sidebar, typography sample, bestiary page.
 
 ## Generation Quality Check
 
@@ -114,12 +118,14 @@ Before accepting generated Eadria artwork, ask:
 - Are details suggested rather than fully resolved?
 - Are materials matte and believable rather than glossy?
 - Is the composition calm, readable, and atmospheric rather than cinematic or poster-like?
+- Does selective focal color guide the eye toward the intended subject or emotional center?
+- Is the focal color memorable but still natural, painterly, and non-glossy?
 - Does the image avoid UI/spec-sheet/page-layout artifacts?
 - Does the image avoid flags, banners, and meaningless heraldry unless requested?
 - Does the image fit the live wiki feature-frame crop?
 
 If the answer is no, regenerate with stronger terms:
-“storybook plate,” “historical chronicle illustration,” “matte paint,” “visible brushwork,” “softened edges,” “restrained detail,” “not cinematic,” “not photorealistic,” “not concept art,” “not glossy,” “not a game loading screen.”
+“storybook plate,” “historical chronicle illustration,” “matte paint,” “visible brushwork,” “softened edges,” “restrained detail,” “selective focal color,” “eye-guiding color accent,” “not cinematic,” “not photorealistic,” “not concept art,” “not glossy,” “not a game loading screen.”
 
 ## Depicting the Keepers of Volelia
 
