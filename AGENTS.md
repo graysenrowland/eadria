@@ -11,6 +11,8 @@
 - Media for public wiki pages belongs in `/media`; use descriptive filenames when possible.
 - Preserve the writer's wording and avoid adding lore beyond approved canon.
 - Page hierarchy should distinguish regions from places. For both Delmara and Eadria, organize broad geographic regions above individual cities, settlements, ruins, and other places.
+- Peoples are not equivalent to settlements. A people may be associated with a realm, city, region, road, migration, or no fixed homeland at all.
+- Public-facing prose must not use explicit fantasy ancestry labels such as elf, elves, orc, or dwarf. Use grounded human-like physical, cultural, or regional descriptions instead, and avoid stereotypical fantasy traits such as pointed ears, tusks, or caricatured features unless explicitly approved.
 - Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
 - When creating or editing public pages, version local CSS, JS, and media URLs with a Unix timestamp cache key using `?v=<unix-timestamp>` so mobile/browser caches refresh reliably during frequent same-day edits.
 
