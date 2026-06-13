@@ -104,26 +104,6 @@
       "aliases": []
     },
     {
-      "name": "Humans",
-      "url": "races/humans.html",
-      "aliases": ["human", "humans"]
-    },
-    {
-      "name": "Elves",
-      "url": "races/elves.html",
-      "aliases": ["elf", "elves"]
-    },
-    {
-      "name": "Dwarves",
-      "url": "races/dwarves.html",
-      "aliases": ["dwarf", "dwarves"]
-    },
-    {
-      "name": "Orcs",
-      "url": "races/orcs.html",
-      "aliases": ["orc", "orcs"]
-    },
-    {
       "name": "Icena",
       "url": "peoples/icena.html",
       "aliases": ["the Icena"]
