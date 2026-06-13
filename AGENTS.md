@@ -13,6 +13,7 @@
 - Page hierarchy should distinguish regions from places. For both Delmara and Eadria, organize broad geographic regions above individual cities, settlements, ruins, and other places.
 - Peoples are not equivalent to settlements. A people may be associated with a realm, city, region, road, migration, or no fixed homeland at all.
 - Public-facing prose must not use explicit fantasy ancestry labels such as elf, elves, orc, or dwarf. Use grounded human-like physical, cultural, or regional descriptions instead, and avoid stereotypical fantasy traits such as pointed ears, tusks, or caricatured features unless explicitly approved.
+- When translating private ancestry shorthand into public prose, do not replace it with generic biological trivia. Prefer contextually meaningful descriptors: relationship to land, forests, waters, roads, craft, polity, customs, isolation, migration, reputation, or way of life.
 - Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
 - When creating or editing public pages, version local CSS, JS, and media URLs with a Unix timestamp cache key using `?v=<unix-timestamp>` so mobile/browser caches refresh reliably during frequent same-day edits.
 
@@ -40,7 +41,7 @@
 - Focal color should feel intentional and painterly, not glossy, neon, over-saturated, or digitally glowing.
 - Use focal color to emphasize the true center of attention: a face, shield mark, candle, flower, river bend, garment edge, animal eye, sacred object, distant window, ember, or other meaningful visual anchor.
 - Surrounding color should support the focal color with quieter atmospheric harmony, so the eye naturally lands where the scene wants it to land.
-- Favor painterly storybook realism: hand-painted illustrative fantasy that feels believable but clearly not photographic.
+- Favor painterly storybook realism: hand-painted fantasy illustration that feels believable but clearly not photographic.
 - Use visible brush texture, softened edges, matte surfaces, atmospheric depth, and restrained detail.
 - Important forms should be readable, but faces, eyes, cloth, stone, armor, trees, architecture, and distant figures should often be suggested through brushwork rather than fully resolved.
 - Keep large scenes visually simplified: clear silhouette masses, fewer tiny architectural elements, less micro-detail, and stronger atmosphere rather than dense rendered complexity.
