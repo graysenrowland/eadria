@@ -1,4 +1,12 @@
 (function () {
+  var fallbackItems = [
+    { label: 'Geography', href: '/geography.html' },
+    { label: 'Peoples', href: '/peoples/index.html' },
+    { label: 'Groups & Guilds', href: '/groups/index.html' },
+    { label: 'Faiths & Beliefs', href: '/faiths/index.html' },
+    { label: 'Timeline', href: '/timeline.html' }
+  ];
+
   function renderNav(items) {
     document.querySelectorAll('.nav-links').forEach(function (nav) {
       nav.innerHTML = '';
@@ -11,10 +19,12 @@
     });
   }
 
-  fetch('/data/nav.json')
+  renderNav(fallbackItems);
+
+  fetch('/data/nav.json?v=1791849600')
     .then(function (response) { return response.ok ? response.json() : Promise.reject(response); })
     .then(renderNav)
     .catch(function () {
-      // Existing hard-coded menu remains as a fallback if the JSON cannot be loaded.
+      renderNav(fallbackItems);
     });
 }());
