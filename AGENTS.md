@@ -14,7 +14,7 @@
 - Peoples are not equivalent to settlements. A people may be associated with a realm, city, region, road, migration, or no fixed homeland at all.
 - Public-facing prose must not use explicit fantasy ancestry labels such as elf, elves, orc, or dwarf. Use grounded human-like physical, cultural, or regional descriptions instead, and avoid stereotypical fantasy traits such as pointed ears, tusks, or caricatured features unless explicitly approved.
 - When translating private ancestry shorthand into public prose, do not replace it with generic biological trivia. Prefer contextually meaningful descriptors: relationship to land, forests, waters, roads, craft, polity, customs, isolation, migration, reputation, or way of life.
-- Avoid the term “magic” in public prose unless explicitly approved. Prefer subtle wording using “wonders” and “signs.” These words may be capitalized normally in titles and at the start of sentences, but should not be treated as a formal system, school, category, or proper noun unless explicitly requested.
+- Avoid the terms “magic” and “pantheon” in public prose unless explicitly approved. Prefer subtle wording using “wonders,” “signs,” “faiths,” “beliefs,” “old powers,” or other contextually grounded phrasing. “Wonders” and “signs” may be capitalized normally in titles and at the start of sentences, but should not be treated as a formal system, school, category, or proper noun unless explicitly requested.
 - Use Delmara for the northern/upper world region and Eadria for the southern/lower world region. Do not use “the Land Above,” “the Land Below,” “Lands Above,” or “Lands Below” except for the single explanatory description on the Geography page.
 - When creating or editing public pages, version local CSS, JS, and media URLs with a Unix timestamp cache key using `?v=<unix-timestamp>` so mobile/browser caches refresh reliably during frequent same-day edits.
 
@@ -99,7 +99,7 @@ If the image starts to feel cinematic, photographic, glossy, or like a game conc
 - Include flags or banners only when the user asks for them or when a canonically appropriate group, realm, army, temple, ship, fortress, or ceremonial setting would realistically display them.
 - Do not add banners to rural villages, wilderness paths, ruins, village outskirts, Icena settlements, or ordinary roads unless the banner itself is specifically meaningful and approved.
 - When symbols are appropriate, prefer practical placement on shields, carved lintels, armor engravings, signboards, seals, ritual objects, or worn everyday objects rather than random hanging flags.
-- When generating emblems, insignia, banners, armor markings, or symbolic motifs, account for the associated pantheons, groups, peoples, regions, and political relationships already established in canon.
+- When generating emblems, insignia, banners, armor markings, or symbolic motifs, account for the associated faiths, beliefs, groups, peoples, regions, and political relationships already established in canon.
 - Avoid generic symbols when a canon-linked symbol exists.
 - Avoid introducing symbols that imply false allegiance, ownership, worship, or political control.
 
